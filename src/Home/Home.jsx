@@ -1,34 +1,34 @@
 import React, { useState, useEffect } from 'react';
 import ReactTypingEffect from 'react-typing-effect';
-import img1 from '../images/observation-urban-building-business-steel.jpg';
-import img2 from '../images/cover2.jpg'; // استيراد خلفية أخرى كمثال
-import img3 from '../images/cover5.jpg'; // استيراد خلفية أخرى كمثال
+// import img1 from '../images/observation-urban-building-business-steel.jpg';
+// import img2 from '../images/cover2.jpg'; // استيراد خلفية أخرى كمثال
+// import img3 from '../images/cover5.jpg'; // استيراد خلفية أخرى كمثال
 import main from '../images/build.png'; // استيراد خلفية أخرى كمثال
 
 
 export default function Home() {
-  // مصفوفة الخلفيات
-  const backgrounds = [img1, img2, img3];
+  // // مصفوفة الخلفيات
+  // const backgrounds = [img1, img2, img3];
   
-  // حالة الخلفية الحالية
-  const [currentBackground, setCurrentBackground] = useState(backgrounds[0]);
+  // // حالة الخلفية الحالية
+  // const [currentBackground, setCurrentBackground] = useState(backgrounds[0]);
 
-  useEffect(() => {
-    // دالة لتحديث الخلفية
-    const changeBackground = () => {
-      setCurrentBackground(prev => {
-        const currentIndex = backgrounds.indexOf(prev);
-        const nextIndex = (currentIndex + 1) % backgrounds.length;
-        return backgrounds[nextIndex];
-      });
-    };
+  // useEffect(() => {
+  //   // دالة لتحديث الخلفية
+  //   const changeBackground = () => {
+  //     setCurrentBackground(prev => {
+  //       const currentIndex = backgrounds.indexOf(prev);
+  //       const nextIndex = (currentIndex + 1) % backgrounds.length;
+  //       return backgrounds[nextIndex];
+  //     });
+  //   };
 
-    // تعيين التحديث الدوري
-    const intervalId = setInterval(changeBackground, 5000); // تغيير كل 5 ثواني
+  //   // تعيين التحديث الدوري
+  //   const intervalId = setInterval(changeBackground, 5000); // تغيير كل 5 ثواني
 
-    // تنظيف التوقيت عند تفكيك المكون
-    return () => clearInterval(intervalId);
-  }, []);
+  //   // تنظيف التوقيت عند تفكيك المكون
+  //   return () => clearInterval(intervalId);
+  // }, []);
 
   return (
     <div className="home" >
