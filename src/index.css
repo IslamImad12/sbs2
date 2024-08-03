@@ -8,112 +8,64 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
 .home {
-  /* background-image: url('../src/images/observation-urban-building-business-steel.jpg'); */
-  /* background-color: #291145; */
-  background-image: linear-gradient(to right,#1B0550,#30065C, #3B0A70);
+  background-image: linear-gradient(to right, #1B0550, #30065C, #3B0A70);
   background-size: cover;
-  height: 100vh;
+  height: 120vh;
   width: 100%;
   position: relative;
 }
+
 .typing-effect {
   color: white;
 }
-/* .home::after {
-  content: '';
-  background-color: #00000094;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-} */
-/* @keyframes animation1 {
-  0% {
-      position: relative;
-      left: 0;
-  }
-  5% {
-      content: 'S | ';
-      left: 1px;
-  }
-  10% {
-      content: 'SB | ';
-      left: 2px;
-  }
-  15% {
-      content: 'SBS | ';
-      left: 3px;
-  }
-  20% {
-      content: 'SBS- | ';
-      left: 4px;
-  }
-  25% {
-      content: 'SBS-P | ';
-      left: 5px;
-  }
-  30% {
-      content: 'SBS-PH | ';
-      left: 6px;
-  }
-  35% {
-      content: 'SBS-PHD | ';
-      left: 7px;
-  }
-  40% {
-      content: 'SBS-PH | ';
-      left: 8px;
-  }
-  50% {
-      content: 'SBS-P | ';
-      left: 9px;
-  }
-  55% {
-      content: 'SBS- | ';
-      left: 8px;
-  }
-  60% {
-      content: 'SBS | ';
-      left: 7px;
-  }
-  65% {
-      content: 'SB | ';
-      left: 6px;
-  }
-  70% {
-      content: 'S | ';
-      left: 5px;
-  }
-  100% {
-      content: '| ';
-      left: 0px;
-  }
-}
-.say::before {
-  content: '  | ';
-  color: black;
-  animation-name: animation1;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-delay: 3s;
-} */
+
 .home-content {
   position: relative;
-  top: 40vh;
+  /* top: 40vh; */
   z-index: 2;
 }
-.table , .table2 , .table4 , .table6 {
+
+.table, .table2, .table4, .table6 {
   background-color: #f1f1f1;
 }
+
 #intro {
   /* background-color: #1c0b33; */
+}
+
+.home-content {
+  /* margin-bottom: 20px; */
+}
+
+@media (max-width: 768px) {
+  .home-content {
+    text-align: center;
+  }
+
+  .home-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .home-content p {
+    font-size: 1rem;
+  }
+
+  .home-content .btn {
+    margin-top: 10px;
+  }
+
+  .home img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (min-width: 768px) {
+  .home-content {
+    position: relative;
+    top: 150px;
+  }
 }

@@ -35,7 +35,7 @@ export default function Home() {
       <div className="container">
         <div className="row">
           <div className="col-md-6 ">
-          <div className="home-content">
+          <div className="home-content my-5">
           <h2 className='say'>
             <ReactTypingEffect
               text={['SBS-PHD']}  // Text to type
@@ -57,7 +57,7 @@ export default function Home() {
         </div>
           </div>
           <div className="col-md-6 d-flex align-items-center justify-content-center my-5"><img src={main} alt="" 
-          className='d-flex align-items-center justify-content-center ' width={'550px'}/></div>
+          className='d-flex align-items-center justify-content-center  ' width={'550px'}/></div>
         </div>
       </div>
     </div>
