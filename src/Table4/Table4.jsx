@@ -97,7 +97,7 @@ export default function Table4() {
                     </div>
                 </div>
 
-</div>
+            </div>
         </section>
     </div>
   </div>

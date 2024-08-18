@@ -69,3 +69,28 @@ code {
     top: 150px;
   }
 }
+.footer {
+  background-image: url(../src/images/smartHouse.jpg);
+  /* background-size: contain; */
+  background-position: center;
+  position: relative;
+  z-index: 2;
+  
+}
+.footer::after {
+  content: '';
+  background-color: rgba(20, 20, 20, 0.541);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+#smart {
+  min-height: 70vh;
+  background-image: linear-gradient(to right, #1B0550, #30065C, #3B0A70);
+}
+.homes2 {
+  background-color: #20043f;
+}

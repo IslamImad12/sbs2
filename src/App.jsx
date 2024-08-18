@@ -13,10 +13,31 @@ import Table5 from './Table5/Table5';
 import Table6 from './Table6/Table6';
 import Table7 from './Table7/Table7';
 import Footer from './Footer/Footer';
+import SmartHome from './SmartHome/SmartHome';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Layout from './Layout/Layout';
+import Contact from './Contact/Contact';
 
 function App() {
+  const routes = createBrowserRouter([
+    {path:'' , element:<Layout/> , children: [
+      {path:'' , element:<Home/>},
+      {path:'home' , element:<Home/>},
+      {path:'table' , element:<Table/>},
+      {path:'table1' , element:<Table1/>},
+      {path:'table2' , element:<Table2/>},
+      {path:'table3' , element:<Table3/>},
+      {path:'table4' , element:<Table4/>},
+      {path:'table5' , element:<Table5/>},
+      {path:'table6' , element:<Table6/>},
+      {path:'table7' , element:<Table7/>},
+      {path:'contact' , element:<Contact/>},
+      {path:'smartHomes' , element:<SmartHome/>}
+    ]}
+  ])
   return (<>
-    <Navbar/>
+    <RouterProvider router={routes}/>
+    {/* <Navbar/>
     <Home/>
     <Intro/>
     <Table/>
@@ -27,8 +48,8 @@ function App() {
     <Table5/>
     <Table6/>
     <Table7/>
-    <Footer/>
-
+    <SmartHome/>
+    <Footer/> */}
   </>
   );
 }

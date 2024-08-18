@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
   return <>
-  <div className="footer bg-dark text-white py-4" id='footer'>
+  <div className="footer bg-dark text-white py-5" id='footer'>
     <div className="container">
     <div className="row">
     <div className="col-md-3">
@@ -13,9 +13,9 @@ export default function Footer() {
              Space and Workplace Services Management <br />
              Asset and Maintenance Management <br />
              Energy and Sustainability Management <br />
-            Campus Management Solution <br />
+            {/* Campus Management Solution <br />
             Facility Services Business Solution <br />
-            Real Estate Management for SAP S/4HANA <br />
+            Real Estate Management for SAP S/4HANA <br /> */}
             Workplace Edition <br />
             Lease Accounting Solution <br />
             </p>
@@ -32,12 +32,12 @@ export default function Footer() {
             Facilities Management Software <br />
             Field Service Management <br />
             Hyperautomation <br />
-            IoT Sensors for Real Estate and FM <br />
+            {/* IoT Sensors for Real Estate and FM <br />
             Lease Accounting <br />
             Planned Preventative Maintenance <br />
             Property Management Software <br />
             Service Management <br />
-            Space Management <br />
+            Space Management <br /> */}
             Workplace Management</p>
         </div>
         <div className="col-md-3">

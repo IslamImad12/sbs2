@@ -1,5 +1,7 @@
 import React from 'react'
 import logo from '../images/logoo.png'
+import SmartHome from '../SmartHome/SmartHome'
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
   return <>
@@ -13,13 +15,16 @@ export default function Navbar() {
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <Link class="nav-link active" aria-current="page" to="/home">Home</Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#table">Table Content</a>
+          <Link class="nav-link" to="/table">Table Content</Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#footer">contact us</a>
+          <Link class="nav-link" to="/smartHomes">Smart Homes</Link>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact">contact us</a>
         </li>
         
         
