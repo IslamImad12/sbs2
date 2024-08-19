@@ -94,3 +94,12 @@ code {
 .homes2 {
   background-color: #20043f;
 }
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 1rem;
+  }
+
+  .modal-dialog {
+    max-width: 90%;
+  }
+}
