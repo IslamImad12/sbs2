@@ -240,7 +240,7 @@ export default function SmartHome() {
               </div>
 
               {/* Benefit 7 */}
-              <div className="col">
+              {/* <div className="col">
                 <div className="card">
                   <div className="card-header">
                     <h6>Improved Accessibility</h6>
@@ -252,10 +252,10 @@ export default function SmartHome() {
                     </button>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               {/* Modal 7 */}
-              <div className="modal fade" id="modal7" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="modalEnergyLabel" aria-hidden="true">
+              {/* <div className="modal fade" id="modal7" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="modalEnergyLabel" aria-hidden="true">
                 <div className="modal-dialog">
                   <div className="modal-content">
                     <div className="modal-header">
@@ -271,10 +271,10 @@ export default function SmartHome() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               {/* Benefit 8 */}
-              <div className="col">
+              {/* <div className="col">
                 <div className="card">
                   <div className="card-header">
                     <h6>Advanced AI and Machine Learning</h6>
@@ -286,10 +286,10 @@ export default function SmartHome() {
                     </button>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               {/* Modal 8 */}
-              <div className="modal fade" id="modal8" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="modalEnergyLabel" aria-hidden="true">
+              {/* <div className="modal fade" id="modal8" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="modalEnergyLabel" aria-hidden="true">
                 <div className="modal-dialog">
                   <div className="modal-content">
                     <div className="modal-header">
@@ -305,7 +305,37 @@ export default function SmartHome() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
+
+            </div>
+          </div>
+        </section>
+        <section id='smart'>
+          <div className="container">
+            <div className="row py-5 text-white">
+                <div className="col-md-6 d-flex justify-content-center align-items-center my-3">
+                    <img src={Ai} className='w-100 h-100' alt="" />
+                </div>
+
+                <div className="col-md-6 justify-content-center align-items-center my-3">
+                    <h3>Advanced AI and Machine Learning</h3>
+                    <h6>Predictive Analytics:</h6>
+                    <p> AI can learn your preferences and habits over time, automatically adjusting settings for optimal comfort and efficiency.</p>
+                    <h6>Personalized Experiences:</h6>
+                    <p>From adjusting music based on your mood to managing your daily schedule, AI integration adds a new level of intelligence to your smart home.</p>
+                </div>
+
+                <div className="col-md-6 justify-content-center align-items-center">
+                    <h3>Improved Accessibility</h3>
+                    <h6>Seamless Connectivity:</h6>
+                    <p> A strong, reliable Wi-Fi network is the backbone of a smart home, ensuring all devices work together seamlessly.</p>
+                    <h6>Expanded Range:</h6>
+                    <p>With the right equipment, even large homes can enjoy full coverage without dead zones.</p>
+                </div>
+
+                <div className="col-md-6 d-flex justify-content-center align-items-center">
+                    <img src={wifi} className='w-100 h-100' alt="" />
+                </div>
             </div>
           </div>
         </section>
