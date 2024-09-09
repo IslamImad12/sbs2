@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import bootstrap from '../node_modules/bootstrap/dist/css/bootstrap.css'
 import Navbar from './Navbar/Navbar';
 import Home from './Home/Home';
