@@ -8,7 +8,7 @@ export default function Navbar() {
   <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
   <div class="container">
 
-    <a class="navbar-brand" href="#"><img src={logo} width={'35px'} className='mx-1' alt="" /></a>
+    <a class="navbar-brand" href="/page1"><img src={logo} width={'35px'} className='mx-1' alt="" /></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

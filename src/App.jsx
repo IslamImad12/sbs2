@@ -17,11 +17,13 @@ import SmartHome from './SmartHome/SmartHome';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Layout from './Layout/Layout';
 import Contact from './Contact/Contact';
+import Page1 from './Page1/Page1';
 
 function App() {
   const routes = createBrowserRouter([
     {path:'' , element:<Layout/> , children: [
-      {path:'' , element:<Home/>},
+      {path:'' , element:<Page1/>},
+      {path:'page1' , element:<Page1/>},
       {path:'home' , element:<Home/>},
       {path:'table' , element:<Table/>},
       {path:'table1' , element:<Table1/>},
